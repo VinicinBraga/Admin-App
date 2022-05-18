@@ -31,4 +31,6 @@ class User extends Model {
       }
     );
   }
+  static associate(models) {}
 }
+export default User;
